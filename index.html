@@ -11,10 +11,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;0,8..144,800;0,8..144,900;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,600;1,8..144,700;1,8..144,800;1,8..144,900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style-tablet.css">
+    <link rel="stylesheet" href="/css/stlye-mobile.css">
 
 
-<title> | VaultZ Miniatures | 3D Printed Miniature</title>
+<!-- ########### TITEL ANPASSEN! ############ --><title> Jules | VaultZ Miniatures | 3D Printed Miniature </title><!-- ########### EDIT TITLE! ############ -->
 </head>
 <body>
     <div class="body-container">
@@ -24,17 +25,35 @@
             <header>
         
                 <nav id="Links">
-                    <ul style="list-style-type:none">
-                        <li><a href="index.html">&#10145;&#65039; Ebay-Shop</a></li>
-                        <li><a href="index.html">&#10145;&#65039; More from VaultZ Miniatures</a></li>
-                    </ul>
+                    <a style="list-style-type:none" href="index.html">&#10145;&#65039; Shop</a>
+                    <a style="list-style-type:none" href="index.html">&#10145;&#65039; More from VaultZ Miniatures</a>
                 </nav>
         
-                <img src="https://drive.google.com/uc?export=download&id=1tKXyNcQ24z7ClsZyXu5ne8TiTiha7fGT" alt="Mad Monkey Miniatures Logo" style="font-size: 14px;" id="logo">
+                <img src="assets/private/mad_monkey_miniatures_logo.jpg" 
+                    alt="Shop Logo" 
+                    style="font-size: 14px;"
+                    onerror="this.onerror=null;
+                        this.src='assets/example_images/some_shop_logo.png';"  
+                    id="logo"
+                >
         
-                <nav id="IG-Logo">
-                    <a href="https://www.instagram.com/madmonkeyminiatures/"><img src="https://drive.google.com/uc?export=download&id=1DKOz0klMIHP8AXvoT3khK6aH8wXLCXvT" alt="&#128247; Connect with me on Instagram!" style="font-size: 14px;" title="@MadMonkeyMiniatures" id="IG"></a>
-                    <a href="https://www.madmonkeyminiatures.etsy.com"><img src="https://drive.google.com/uc?export=download&id=1vKBWW6MXhm24vtQ0Vme7v-xn5RPr97D6" alt="&#127978; Also visit my Etsy Store!" style="font-size: 14px;" title="MadMonkeyMiniatures.Etsy.com" id="etsy"></a>
+                <nav id="Logos">
+                    <a href="https://www.instagram.com/madmonkeyminiatures/">
+                        <img src="assets/icons/instagram.png" 
+                            alt="&#128247; Connect with me on Instagram!" 
+                            style="font-size: 14px;" 
+                            title="@MadMonkeyMiniatures" 
+                            id="IG"
+                        >
+                    </a>
+                    <a href="https://www.madmonkeyminiatures.etsy.com">
+                        <img src="assets/icons/etsy.png" 
+                            alt="&#127978; Visit my Etsy Store!" 
+                            style="font-size: 14px;" 
+                            title="MadMonkeyMiniatures.Etsy.com" 
+                            id="etsy"
+                        >
+                    </a>
                 </nav>
         
             </header> 
@@ -49,9 +68,33 @@
                         <h4>Miniatures by hobbyist for hobbyists</h4>
                     </div>
                     <div class="miniatures">
-                        <img src="https://drive.google.com/uc?export=download&id=1K2l-tDXa-o5Vli7rDmMsY2Mx08KYF82w" alt="Picture of a painted miniature" style="font-size: 14px;" title="Design: Battle Brother | DakkaDakka.Store" id="battlebrother">
-                        <img src="https://drive.google.com/uc?export=download&id=14YZn499srNDF3XXrzYBMS4oFTZloJ28k" alt="Picture of a painted miniature" style="font-size: 14px;" title="Design: Boraka Al-Mas | Aether and Alchemist" id="boraka">
-                        <img src="https://drive.google.com/uc?export=download&id=17BAR_Fq9LZ74ceBuMBNYWvzQ7yI5JaRq" alt="Picture of a painted miniature" style="font-size: 14px;" title="Design: Jules / Joseph | VaultZ Miniatures" id="jules">
+                        <img src="assets/private/battle_brother.jpg" 
+                            alt="Picture of a painted miniature" 
+                            style="font-size: 14px;" 
+                            title="Design: Battle Brother | DakkaDakka.Store" 
+                            onerror="this.onerror=null;
+                                this.src='assets/example_images/alt_battle_brother.png';
+                                this.title=' Design: Some Design | Designer: Some Studio'" 
+                            id="battlebrother"
+                        >
+                        <img src="assets/private/boraka.jpg" 
+                            alt="Picture of a painted miniature" 
+                            style="font-size: 14px;" 
+                            title="Design: Boraka Al-Mas | Aether and Alchemist"
+                            onerror="this.onerror=null;
+                                this.src='assets/example_images/alt_boraka.png';
+                                this.title=' Design: Some Design | Designer: Some Studio'"  
+                            id="boraka"
+                        >
+                        <img src="assets/private/jules.jpg" 
+                            alt="Picture of a painted miniature" 
+                            style="font-size: 14px;" 
+                            title="Design: Jules / Joseph | VaultZ Miniatures"
+                            onerror="this.onerror=null;
+                                this.src='assets/example_images/alt_jules.png';
+                                this.title=' Design: Some Design | Designer: Some Studio'"  
+                            id="jules"
+                        >
                     </div>
                 </div>
                 
@@ -60,8 +103,8 @@
 
 
                 <section lang=" en">
-                <!-- ########### HIER ANPASSEN! ############ -->    <h1><u>VaultZ Miniatures</h1> <!-- ########### HIER ANPASSEN! ############ -->
-                <!-- ########### HIER ANPASSEN! ############ -->    <h2>Modellbezeichnungt</u></h2> <!-- ########### HIER ANPASSEN! ############ -->
+                <!-- ########### DESIGNSTUIDO! ############ -->    <h1><u>VaultZ Miniatures</h1> <!-- ########### DESIGN STUDIO! ############ -->
+                <!-- ########### MODELLBEZEICHNUNG! ############ -->    <h2>Jules</u></h2> <!-- ########### MODEL NAME! ############ -->
                 </section>
                 
 
@@ -69,32 +112,66 @@
                     
                     <div class="german-text">
                         <h3>&nbsp;&nbsp;&#127465;&#127466;</h3>
-                        <p>&#128207; Maßstab: 32 mm</p>
-                        <p>Die Miniaturen von VaultZ sind die perfekte Ergänzung für Spiele wie z.B. Zombicide oder auch als Charaktere bzw. NPCs für
-                            Pen & Paper RPGs und weitere Tabletop-Spiele geeignet!</p>
-                        <p>&#128230; Lieferumfang: <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Modell <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Rundbase</p>
-                        <p>&#128396;&#65039; Das Modell kommt unbemalt, in einem Stück, und muss nur noch auf eine Base geklebt werden.<br>
-                            Schnapp dir also schonmal guten Sekundenkleber (keinen Plastikkleber) und deine Lieblingsfarben.</p>
+
+                        <p>&#128207; <b>Maßstab:</b> 32 mm</p>
+
+                        <p>Die Miniaturen von <em>VaultZ</em> sind die perfekte Ergänzung für Spiele wie <em>Zombicide</em> 
+                            - oder eignen sich hervorragend als <em>Heldencharaktere</em> oder <em>NPCs</em> für <em>Pen-&-Paper-Rollenspiele</em> 
+                            und andere Tabletop-Systeme!
+                        </p>
+
+                        <br>
+
+                        <p>&#128230; <b>Lieferumfang:</b></p>
+                        <ul>
+                            <li>Modell</li>
+                            <li>Rundbase (25 mm)</li>
+                        </ul>
+
+                        <br>
+
+                        <p>&#128396;&#65039; <em>Das Modell wird unbemalt und in einem Stück geliefert</em> - du musst es nur noch auf eine Base kleben.<br>
+                            Also schnapp dir etwas guten Sekundenkleber (kein Plastikkleber!) und deine Lieblingsfarben.
+                        </p>
                     </div>
 
-                    <img src="https://drive.google.com/uc?export=download&id=1AgHCO6938v1WToE52LvHoiFoWygF2xWD" alt="Picture of VaultZ Models" id="vaultz-models">
+                    <img src="assets/private/jules_render.jpg" 
+                        alt="3D picture of the miniature 'Jules' from VaultZ Miniatures"
+                        onerror="this.onerror=null;
+                            this.src='assets/example_images/alt_jules_render.png';
+                            this.alt='3D picture if Some Model from Some Studio';
+                            this.title=' Design: Some Design | Designer: Some Studio'" 
+                        id="3d-jules"
+                    >
                             
                     <div class="english-text">
                         <h3>&nbsp;&nbsp;&#127468;&#127463; &#127482;&#127480;</h3>
-                        <p>&#128207; Scale: 32 mm</p>
-                        <p>The miniatures from VaultZ are the perfect addition to games such as Zombicide, or as characters or NPCs for Pen & Paper RPGs and other tabletop games.</p>
-                        <p>&#128230; Content: <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Model <br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Round base</p>
-                        <p>&#128396;&#65039; The model comes unpainted, in one piece, and only needs to be glued to a base.<br>
-                            So grab some good superglue (not plastic glue) and your favourite colours.</p>
+
+                        <p>&#128207; <b>Scale:</b> 32 mm</p>
+
+                        <p><em>VaultZ</em> miniatures are the perfect addition to games like <em>Zombicide</em> 
+                            - or make excellent <em>hero characters</em> and <em>NPCs</em> for <em>pen-and-paper role-playing games</em> 
+                            and other tabletop systems!
+                        </p>
+
+                        <br>
+
+                        <p>&#128230; <b>Content:</b></p>                        
+                        <ul>
+                            <li>Model</li>
+                            <li>Round base (25 mm)</li>
+                        </ul>
+
+                        <br>
+
+                        <p>&#128396;&#65039; <em>The model comes unpainted and in one piece</em> - all you need to do is glue it onto a base.<br>
+                            So grab some quality super glue (not plastic glue!) and your favorite paints.
+                        </p>
                     </div>  
 
                 </div>
 
-                <hr><br>
+                <br><br>
 
                 <div class="information">
 
@@ -111,7 +188,11 @@
                         </div>
 
                         <div class="cards-picture">
-                            <img src="https://drive.google.com/uc?export=download&id=1CyBAkVJnwfQS2leaxczRXosluB8XmFDS" alt="3D-Printing">
+                            <img src="assets/private/3d_printer.jpg"
+                                onerror="this.onerror=null;
+                                    this.src='assets/example_images/alt_3d_printer.png';"  
+                                alt="3D-Printing"
+                            >
                         </div>
                     </div>
 
@@ -126,98 +207,125 @@
                             </div>
         
                             <div class="cards-picture">
-                                <img src="https://drive.google.com/uc?export=download&id=11moswTn-_x7hgK6sWrjHZ4KHfUWtaF0m" alt="Cleaning">
+                                <img src="assets/private/cleaning.jpg"
+                                    onerror="this.onerror=null;
+                                        this.src='assets/example_images/alt_cleaning.png';"  
+                                    alt="Cleaning"
+                                >
                             </div>
                     </div>
                             
                     <div class="postprocessing cards sub-grid-container-right">
                         
                             <div class="cards-german">
-                                <p>&#127465;&#127466; Anschließend entferne ich alle Supports (Stützkonstrukte des Druckprozesses) bereits des Reinigungsprozesses. 
-                                    Das bedeutet etwas mehr Arbeit für mich, aber dafür hast du kein wildes Resinkonstrukt im Paket liegen, bei dem nicht mal sichergestellt werden kann, 
-                                    dass alle Teile ausreichend nachbehandelt wurden.<br>
-                                    In kurz: Du erhältst dein Produkt sicher und frustfrei.</p>
+                                <p>&#127465;&#127466; Dann entferne ich vollständig alle Supports - die Druckstützen. <br> 
+                                    Das spart dir ein Chaos aus Resinteilen und sorgt dafür, dass alles sauber nachbearbeitet bei dir ankommt.<br>
+                                    Kurz gesagt: sicher und frustfrei.
                             </div>
             
                             <div class="cards-english">
-                                <p>&#127468;&#127463; &#127482;&#127480; Then I remove all supports (support constructs of the printing process) during the cleaning process. 
-                                    This means a little more work for me, but in return you don't have a wild resin construct in the package 
-                                    where you can't even be sure that all parts have been sufficiently treated.<br>
-                                    In short: You receive a safe product that doesn't cause frustration.
+                                <p>&#127468;&#127463; &#127482;&#127480; Then I remove all supports - the supporting structures of the printing process. <br> 
+                                    This saves you from a chaos of resin parts and ensures that everything arrives at your place neatly finished.<br>
+                                    In short: safe and stress-free.
                                 </p>
                             </div>
             
                             <div class="cards-picture">
-                                    <img src="https://drive.google.com/uc?export=download&id=1AjXjZ50_CutMhHkaMair4MemoSe5_JRY" alt="Post-Processing">
+                                    <img src="assets/private/post_processing.jpg"
+                                        onerror="this.onerror=null;
+                                            this.src='assets/example_images/alt_post_processing.png';"   
+                                        alt="Post-Processing"
+                                    >
                             </div>
                     </div>  
 
                     <div class="curing cards sub-grid-container-left">
                         
                         <div class="cards-german">
-                            <p>&#127465;&#127466; Bevor die Modelle zu dir auf den Weg gehen, werden sie zum Abschluss nochmal vollständig gereinigt und ausgehärtet. <br>
-                                Da Resin bei UV-Licht aushärtet, lasse es bitte bis zur Bemalung nicht in direktem Sonnenlicht stehen, da es sonst spröde werden kann.</p>
+                            <p>&#127465;&#127466; Vor dem Versand wird dein Modell nochmal final gereinigt und ausgehärtet. <br>
+                                Da Resin durch UV-Licht aushärtet, solltest du es bis zur Bemalung nicht direkter Sonneneinstrahlung aussetzen - das Material könnte sonst spröde werden.
+                            </p>
                         </div>
             
                         <div class="cards-english">
-                            <p>&#127468;&#127463; &#127482;&#127480; Before the models are sent on their way to you, they are completely cleaned and cured. <br>
-                                As resin hardens in UV light, please do not leave it in direct sunlight until you are ready to paint it, otherwise it may become brittle.</p>
+                            <p>&#127468;&#127463; &#127482;&#127480; Before shipping, your model will be cleaned a final time and fully cured.  <br>
+                                Since resin is cured by UV light, you should not expose it to direct sunlight until it is painted - otherwise the material could become brittle.
+                            </p>
                         </div>
             
                         <div class="cards-picture">
-                            <img src="https://drive.google.com/uc?export=download&id=1A61HEKwMf3QwtwzCBxf-XVF8_MDiLgsB" alt="Curing">
+                            <img src="assets/private/curing.jpg" 
+                                onerror="this.onerror=null;
+                                    this.src='assets/example_images/alt_curing.png';"
+                                alt="Curing"
+                            >
                         </div>
                     </div>
                     
                     <div class="finished cards sub-grid-container-right">
                         
                         <div class="cards-german">
-                            <p>&#127465;&#127466; Eine saubere Nachbehandlung ist mir wichtig, da ich dir ein Qualitätsprodukt anbieten möchte.
-                                Trotzdem kann es vorkommen, dass ich vereinzelte kleinere Supports übersehe. Diese lassen sich aber mit Bastelmesser, Zange und / oder Schleifpapier einfach entfernen.<br>  
-                                In seltenen Fällen kommt es vor, dass sich während des Druckprozesses winzige Luftblasen gebildet haben, was leider nicht ganz verhindert werden kann.
-                                Mit etwas Plastic Putty, Liquid Green Stuff, etc. können sie aber rückstandslos beseitigt werden. <br>
-                                Der gesamte Arbeitsaufwand ist für dich wirklich nicht größer als z.B. die Gussgratentfernung bei Artikeln aus dem Einzelhandel.<br>
-                                Sollte etwas jedoch zu unästhetisch oder zu schwer auszubessern sein, wandert das Modell zu den Fehldrucken und ich mache dir ein neues. <br>
-                                Grundsätzlich gilt hier: Was ich nicht haben wollen würde, bekommst du auch nicht.</p>
+                            <p>&#127465;&#127466; Eine saubere Nachbearbeitung ist mir wichtig - schließlich möchte ich dir ein Qualitätsprodukt anbieten.<br>
+                                Dennoch kann es passieren, dass ich einzelne, winzige Supports übersehe. Diese lassen sich mit Bastelmesser, Zange oder Schleifpapier leicht entfernen.<br>
+                                Der Gesamtaufwand für dich ist dabei nicht größer als das Entfernen von Gussgraten bei handelsüblichen Modellen.<br>
+                                In seltenen Fällen können beim Druck winzige Luftblasen entstehen - technisch leider nicht immer vermeidbar. <br> 
+                                Mit etwas Plastic Putty, Liquid Green Stuff o.Ä. sind sie aber problemlos ausgleichbar.<br>
+                                Sollte ein Teil jedoch sichtbar fehlerhaft oder schwer zu bearbeiten sein, wandert es direkt in die Fehldruck-Kiste - und du bekommst natürlich ein neues.<br>
+                                Mein Grundsatz: Was ich selbst nicht akzeptieren würde, liefere ich dir auch nicht.
+                            </p>
                         </div>
             
                         <div class="cards-english">
-                            <p>&#127468;&#127463; &#127482;&#127480; A clean post-production is important to me, because I want to offer you product of quality. 
-                                Nevertheless, it can happen that I overlook a few smaller supports. However, these can be easily removed with a craft knife, pliers and / or sandpaper.<br>
-                                In rare cases, tiny air bubbles may have formed during the printing process, which unfortunately cannot be completely prevented.
-                                However, with a little Plastic Putty, Liquid Green Stuff, etc., they can be removed without leaving any residue.<br>
-                                The overall work required of you is really not greater than removing mould lines on retail items. <br>
-                                However, if something is too unaesthetic or too difficult to repair, the model goes to the misprints and I make you a new one. <br>
-                                The basic rule here is: If I wouldn't want it, you will get it neither.</p>
+                            <p>&#127468;&#127463; &#127482;&#127480; A clean post-processing is important to me - after all, I want to offer you a quality product. 
+                                Nevertheless, it may happen that I overlook some tiny supports. These can easily be removed with a craft knife, pliers or sandpaper.<br>
+                                The total effort for you is not greater than removing mould lines from regular retail models. <br>                                
+                                In rare cases, tiny air bubbles can occur during printing - unfortunately, this is not always technically avoidable <br>
+                                But with a little Plastic Putty, Liquid Green Stuff or similar, they can be easily levelled and smoothed out.<br>
+                                However, if a part is visibly defective or difficult to work with, it goes straight into the misprint box - and of course you get a new one. <br>
+                                My principle: I won't deliver to you what I wouldn't accept myself.
+                            </p>
                         </div>
             
                         <div class="cards-picture">
-                            <img src="https://drive.google.com/uc?export=download&id=1fkfvgkXhZIMiyxsBYaV7wpmxgK5VM-Ij" alt="Models">
+                            <img src="assets/private/finished_model.jpg"
+                                onerror="this.onerror=null;
+                                    this.src='assets/example_images/alt_finished_model.png';" 
+                                alt="Model"
+                            >
                         </div>
                     </div>
                     
                     <div class="shipping cards sub-grid-container-left">
                         
                         <div class="cards-german">
-                            <p>&#127465;&#127466; Alle Bestellungen werden schnellstmöglich versendet. <em>Der Versand erfolgt als versichertes DHL Paket</em>. 
-                                Das bedeutet, dass wir beide vor Verlust geschützt sind und den Paketstandort jederzeit nachverfolgen können.
-                                <br><br>
-                                Bitte beachte: Bei meinen Produkten handelt es sich um Auftragsfertigungen. Je nach Art und Umfang deiner Bestellung, kann es ein paar Tage dauern, bis der Versand erfolgt. 
-                                Hierbei versuche ich die Höchstgrenze von 10 Werktagen nicht zu überschreiten.<br>
-                                Wenn doch, werde ich mich rechtzeitig mit dir in Verbindung setzen.</p>
+                            <p>&#127465;&#127466; Alle Bestellungen werden schnellstmöglich versendet. <br>
+                                <em>Der Versand erfolgt als versichertes DHL Paket</em> - das heißt, wir sind beide gegen Verlust abgesichert und können den Sendungsverlauf jederzeit nachverfolgen.<br><br>
+
+
+                                Bitte beachte: Meine Produkte sind Auftragsfertigungen. Je nach Umfang deiner Bestellung kann der Versand daher ein paar Tage dauern.  
+                                In der Regel werden alle Bestellungen innerhalb von 3 bis 10 Werktagen von mir produziert und versendet.<br><br>
+
+                                Sollte ich doch einmal länger brauchen, melde ich mich natürlich rechtzeitig bei dir.
+                            </p>
                         </div>
             
                         <div class="cards-english">
-                            <p>&#127468;&#127463; &#127482;&#127480; All orders are shipped as quickly as possible. <em>The shipment will be made as an insured DHL package</em>.
-                                This means that we are both protected from loss and can track the parcel location at any time.
-                                <br><br>
-                                Please consider: My products are made to order. Depending on the type and size of your order, it may take a few days to ship.
-                                I try not to exceed the maximum limit of 10 working days.<br>
-                                If I do, I will contact you in good time.</p>
+                            <p>&#127468;&#127463; &#127482;&#127480; All orders are shipped as quickly as possible. <br> 
+                                <em>The shipment will be made as an insured DHL package</em> - which means we're both protected against loss and can track the package at any time. <br><br>
+
+                                Please note: My products are made to order. Depending on the size and complexity of your order, shipping may take a few days.
+                                I usually produce and send all orders within 3 to 10 working days.<br><br>
+
+                                Should I ever need more time, I will of course get back to you in good time.
+                            </p>
                         </div>
             
                         <div class="cards-picture">
-                            <img src="https://drive.google.com/uc?export=download&id=1i3v9rYbpPIdyPTaruOPI8AHzNAPOvrgi" alt="Shipping">
+                            <img src="assets/private/shipping.jpg"
+                                onerror="this.onerror=null;
+                                    this.src='assets/example_images/alt_shipping.png';"  
+                                alt="Shipping"
+                            >
                         </div>
                     </div>
                 
@@ -233,29 +341,36 @@
 
                             <h3>&#127465;&#127466;</h3>
 
-                            <p>&#10071; Besonders die kleinen Figuren im Maßstab 28-32 mm weisen teilweise sehr dünne Teile auf, die schnell brechen können. <br>
-                                Sei hier also bitte (gewohnt) vorsichtig. Aus diesem Grund eignen sich meine Produkte auch nicht für kleine Kinder.</p>
+                            <p>&#10071; <b>Warnhinweis:</b> Besonders kleine Figuren im Maßstab 28 - 32 mm enthalten teils sehr feine Teile, die leicht brechen können. <br>
+                                Bitte gehe hier - wie gewohnt - vorsichtig mit den Modellen um. Aus diesem Grund sind meine Produkte nicht für kleine Kinder geeignet.
+                            </p>
 
-                            <p>&#9878;&#65039; Lizenzierter Verkäufer. <br>
-                                Die Rechte zur Produktion und zum Verkauf habe ich über <em>Patreon</em> von <a href="https://www.patreon.com/vaultzminiatures/posts"><em>VaultZ Miniatures</em></a> erhalten.</p>
+                            <p>&#9878;&#65039; <b>Lizenzierter Verkäufer.</b> <br>
+                                Ich habe die kommerziellen Nutzungsrechte über <em>Patreon</em> <!-- ########### LIZENZGEBER ANPASSEN! ############ -->
+                                von <a href="https://www.patreon.com/vaultzminiatures/posts"><em>VaultZ Miniatures</em></a> erworben.
+                            </p> 
                             
-                            <p>&#127466;&#127482; &#127465;&#127466; Produkte vom heimischen Markt, von Hobbyist für Hobbyisten. <br>
-                                Alle Produkte werden von mir in Deutschland hergestellt. <br>
-                                Das erspart dir lange Versandzeiten und Zollgebühren (Gilt leider nur innerhalb der EU).</p>
+                            <p>&#127466;&#127482; &#127465;&#127466; <b>Von Hobbyist für Hobbyisten - Produkte vom heimischen Markt.</b> <br>
+                                Alle Modelle werden von mir in Deutschland gefertigt. <br>
+                                Das spart dir lange Versandwege und mögliche Zollgebühren (gilt nur innerhalb der EU).
+                            </p>
 
-                            <p>&#128075; Du hast noch Fragen oder dir ist etwas unklar? Dann zögere nicht, dich an mich zu wenden.</p>
+                            <p>&#128075; Du hast <b>Fragen</b> oder etwas ist unklar? Dann zögere nicht, dich bei mir zu melden.</p>
 
-                            <p>&#8252;&#65039; Hinweise: <br>
-                                - Bei den Bildern handelt es sich um gerenderte Produktbilder des Design-Studios und nicht um fertige Produktbilder <br>
-                                - Bilder von bemalten Modellen sind durch Verweis auf den Künstler kenntlich gemacht und dienen nur der beispielhaften Präsentation <br>
-                                - Die gelieferten Produkte sind unbemalt <br>
-                                - Produkte müssen ggf. zusammengebaut werden <br>
-                                - Geringfügige Abweichungen in Form und Farbe aufgrund des Herstellungsprozesses möglich <br>
-                                - Kein Spielzeug, nicht für Kinder geeignet! </p>
+                            <p>&#8252;&#65039; <b>Allgemeine Hinweise:</b> </p>
+                                <ul> 
+                                    <li><em>Die abgebildeten Modelle sind in der Regel 3D-Renderings</em> des Design-Studios (sofern nicht anders gekennzeichnet)</li>
+                                    <li>Fotos bemalter Modelle dienen zur Veranschaulichung und sind mit Verweis auf die jeweiligen Künstler versehen</li>
+                                    <li>Die gelieferten Produkte sind <em>unbemalt</em></li>
+                                    <li>Modelle <em>müssen</em> ggf. selbst <em>zusammengebaut</em> werden</li>
+                                    <li>Leichte Abweichungen in Form und Farbe sind durch den Herstellungsprozess möglich</li>
+                                    <li><em>Kein Spielzeug</em> - nicht für Kinder geeignet!</li>
+                                </ul>
 
-                            <p>&#129689; Angegebene Preise sind Gesamtpreise. <br>
-                                Umsatzsteuer wird aufgrund Kleinunternehmerstatus gem. § 19 UStG nicht ausgewiesen. <br>
-                                [Für Nicht-EU-Kunden können Steuern anfallen.]</p>
+                            <p>&#129689; <b>Alle Preise sind Gesamtpreise.</b> <br>
+                                Gemäß § 19 UStG wird keine Umsatzsteuer ausgewiesen (Kleinunternehmerregelung).<br>
+                                <em>[Für Kunden außerhalb der EU können Steuern und Einfuhrabgaben anfallen.]</em>
+                            </p>
 
                         </div>
 
@@ -263,29 +378,36 @@
 
                             <h3>&#127468;&#127463; &#127482;&#127480;</h3>
                             
-                            <p>&#10071; Especially the small figures in scale 28-32 mm sometimes have very thin parts that can break quickly. <br>
-                                So please be careful (as usual). For this reason, my products are not suitable for small children.</p>
+                            <p>&#10071; <b>Warning::</b> Especially small figures in the 28 - 32 mm scale may have very fine parts that can break easily. <br>
+                                Please handle the models with care, as usual. For this reason, my products are not suitable for small children.
+                            </p>
 
                             <p>&#9878;&#65039; Licensed seller. <br>
-                                I received commercial rights from <a href="https://www.patreon.com/vaultzminiatures/posts"><em>VaultZ Miniatures</em></a> via <em>Patreon</em>.</p>
+                                I acquired the rights for commercial use from <a href="https://www.patreon.com/vaultzminiatures/posts"> <!-- ########### EDIT LICENSOR! ############ -->
+                                    <em>VaultZ Miniatures</em></a> via <em>Patreon</em>.
+                                </p>
                             
-                            <p>&#127466;&#127482; &#127465;&#127466; Products from the domestic market, by Hobbyist for Hobbyists. <br>
-                                All products are made by me in Germany. <br>
-                                This saves you long shipping times and customs fees (unfortunately only applies within the EU).</p>
+                            <p>&#127466;&#127482; &#127465;&#127466; By hobbyists, for hobbyists - products from the domestic market. <br>
+                                All models are made by me in Germany. <br>
+                                This saves you from long shipping routes and potential customs fees (applies only within the EU).
+                            </p>
 
-                            <p>&#128075; Do you still have questions or are you unclear about something? Then don't hesitate to contact me.</p>
+                            <p>&#128075; Do you have <b>questions</b> or is something unclear? Please do not hesitate to contact me.</p>
 
-                            <p>&#8252;&#65039; Notes: <br>
-                                - The images are rendered product images of the design studio and not finished product images <br>
-                                - Pictures of painted models are identified by reference to the artist and serve only for exemplary presentation <br>
-                                - The delivered products are unpainted <br>
-                                - Products may have to be assembled <br>
-                                - Slight deviations in shape and colour possible due to the manufacturing process <br>
-                                - Not a toy, not suitable for children! </p>
+                            <p>&#8252;&#65039; <b>General notes:</b> </p>
+                                <ul> 
+                                    <li><em>The models shown in the images are usually 3D renderings </em>of the respective design studio (unless otherwise specified)</li>
+                                    <li>Photos of painted models are for demonstration purposes only and are labelled with a reference to the respective artists</li>
+                                    <li>The products supplied are <em>unpainted</em></li>
+                                    <li>Some products may <em>require assembly</em></li>
+                                    <li>Slight variations in shape or colour may occur due to the manufacturing process</li>
+                                    <li><em>Not a toy</em> - not suitable for children!</li>
+                                </ul>
 
-                            <p>&#129689; Prices quoted are total prices. <br>
-                                VAT is not shown due to small business status according to § 19 UStG. <br>
-                                [Taxes may apply for non-EU customers].</p>
+                            <p>&#129689; <b>All the prices shown are final.</b> <br>
+                                In accordance with § 19 UStG (German VAT law), VAT is not shown due to small business regulation. <br>
+                                [Taxes or import duties may apply for customers from outside the EU.].
+                            </p>
 
                         </div>
                         
@@ -298,15 +420,30 @@
             <footer>
 
                 <div class="contact">
-                    <img src="https://drive.google.com/uc?export=download&id=13lYKRGYVamJ4lRj_tNrDBQE2fiCevl-g" alt="Portrait" title="&#127465;&#127466; Ja, das bin ich. &#127468;&#127463; &#127482;&#127480; Yep, that's me." id="portrait-footer">
+                    <img src="assets/private/portrait.jpg" 
+                        alt="Portrait" 
+                        title="&#127465;&#127466; Ja, das bin ich. &#127468;&#127463; &#127482;&#127480; Yep, that's me."
+                        onerror="this.onerror=null;
+                            this.src='assets/example_images/alt_portrait.png';"   
+                        id="portrait-footer"
+                    >
+
                     <div class="contact-information">
-                        <p id="contact-mail">&#128231; Contact: <br>
-                            eBay Message</p>
+                        <p id="contact-mail">&#128231; Contact: <br><br>
+                            MadMonkeyMiniatures@gmail.com <br>
+                            MadMonkey.Business.Official@gmail.com
+                        </p>
                     </div>
                 </div>
 
                 <div class="copyright">
-                    <img src="https://drive.google.com/uc?export=download&id=1DoKeJEKTcl0ErSZYiIaUCWHIuk0msw-6" alt="Mad Monkey Logo" title="&#127465;&#127466; Richtig gelesen, sowas mache ich auch. &#127468;&#127463; &#127482;&#127480; That's right, I do that too." id="logo-footer">
+                    <img src="assets/private/mad_monkey_logo.jpg" 
+                        alt="Mad Monkey Logo" 
+                        title="&#127465;&#127466; Richtig gelesen, sowas mache ich auch. &#127468;&#127463; &#127482;&#127480; You read that right, I do that too."
+                        onerror="this.onerror=null;
+                            this.src='assets/example_images/alt_mad_monkey_logo.png';" 
+                        id="logo-footer"
+                    >
                     <p id="copyright">&#169;&#65039; Product page design created by <em>Mad Monkey</em>.</p>
                 </div>
 
@@ -315,7 +452,4 @@
         </div>
     </div>
 </body>
-
-
-
 </html>
