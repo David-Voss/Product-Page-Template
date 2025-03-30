@@ -1,6 +1,6 @@
 /* ############# Smartphone Optimization ########### */
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 
     header,
     section,
@@ -11,26 +11,8 @@
     
         /* ##### GRID-CONTAINER ##### */
     
-    .grid-container {
-        display: grid;
-        grid-template-areas: 
-        "header header header"
-        "hero hero hero"
-        "main main main"
-        "footer footer footer";
-        grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: auto;
-    }
-    
+    .sub-grid-container-left,
     .sub-grid-container-right {
-        grid-template-areas: 
-        " picture"
-        "german"
-        "english";
-        grid-template-columns: repeat(1, 1fr);
-    }
-    
-    .sub-grid-container-left {
         grid-template-areas: 
         " picture"
         "german"
@@ -41,77 +23,33 @@
         /* ##### CARDS ##### */
     
     .cards {
-        
-        border-radius: 24px;
-        /*width: 1240px;*/
-        max-width: 100%;
-        margin: 15px 0;
         font-size: 12px;
+    }   
+    
+    .cards-german,
+    .cards-english {
+        margin: 0 14px;
     }
     
+    .cards-picture img {
+        max-height: 125px;
+    }
+
     .cards2 {
-        background-color: #FFFFFF;
-        border-radius: 24px;
-        box-shadow:0 2px 24px rgba(0, 0, 0, 0.05);
-        max-width: 100%;
-        margin: 15px 0;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 12px;
     }
     
     .cards2 p {
         margin: 15px;
     }
     
-    .cards-german {
-        grid-area: german;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 14px;
-    }
-    
-    .cards-english {
-        grid-area: english;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 14px;
-    }
-    
-    .cards-picture {
-        grid-area: picture;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .cards-picture img {
-        max-height: 125px;
-        margin: 15px 15px;
-        align-self:center;
-        border-radius: 200px;
-        box-shadow:0 2px 24px rgba(0, 0, 0, 0.05);
-    }
-    
-    .cards2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 12px;
-        max-width: 100%;
-    }
-    
     .cards2 h3 {
         font-size: 15px;
     }
-    .german-cards2 {
-        max-width: 100%;
-        margin: 5px 0;
-        padding: 5px 0;
-       /* position: relative;
-        top: 30px; */
-    }
-    
+
+    .german-cards2,
     .english-cards2 {
         max-width: 100%;
         margin: 5px 0;
@@ -122,69 +60,37 @@
     /* *** HEADER *** */
     
     header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        grid-area: header;
-        margin-top: 5px;
+        padding-top: 10px;
         width: 100%;
         margin: auto;
     }
     
     header nav {
-        width: 35%;
+        margin-left: 10px;
     }
     
-    header #Links {
-       display: flex;
-       justify-content: flex-start;
-       text-align: left;
-       align-items: center;
-     }
-    
-     header #Links a:hover {
-        color: slategray
-     }
-    
-    header #Links ul {
-        margin-right: 5%;
-        font-size: 11px;
-        line-height: 19px;
-    
+    header #links {
+        font-size: 10px;
      }
     
     header #logo {
         max-height: 70px;
     }
     
-    header #IG-Logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 35%;
+    header #social-media-logos {
+        margin-right: 10px;        
     }
     
     header #IG {
-        max-height: 30px; 
+        max-height: 20px; 
     }
     
     header #etsy {
-        max-width: 60px;
-        margin-left: 15px;
-        position: relative;
-        top: 5px;
+        max-height: 20px;
+        margin-left: 5px;
     }
     
-    /* *** HERO SECTION *** */
-    
-    .subheader {
-        grid-area: subheader;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+    /* *** SUBHEADER SECTION *** */
     
     .mmm h3 {
         font-size: 16px;
@@ -213,8 +119,6 @@
     /* *** HERO SECTION *** */
     
     section {
-        grid-area: hero;
-        text-align: center;
         margin-top: 10px;
      }
     
@@ -231,16 +135,17 @@
      /* * DESCRIPTION * */
     
     .description {
-        display: flex;
-        flex-direction: column;
         justify-content: space-between;
-        align-items: center;
         margin: auto;
         width: 100%;
      }
+
+    .description img {
+        max-width: 250px;
+    }
     
-    .german-text {
-        flex-direction: column;
+    .german-text,
+    .english-text {
         width: 100%;
         padding: 0 5px 5px 5px;
         font-size: 14px;
@@ -248,72 +153,18 @@
     
     .german-text h3 {
         font-size: 22px;
-        position: relative;
-        right: 10px;
-        padding: 0;
-        text-align: center;
-    }
-    
-    .description img {
-        max-width: 250px;
-    }
-    
-    .english-text {
-        flex-direction: column;
-        width: 100%;
-        padding: 0 5px 5px 5px;
-        font-size: 14px;
     }
     
     .english-text h3 {
         font-size: 22px;
-        position: relative;
         right: 10px;
-        padding: 0;
-        text-align: center;
     }
     
     /* * GENERAL INFORMATION* */
     
-    .information {
-        grid-area: main;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
     .information h3 {
         font-size: 14px;
         margin: 5px auto;
-    }
-    
-    #general-information {
-        text-align: center;
-    }
-    
-    .printer {
-        align-self: center;
-    }
-    
-    .cleaning {
-        align-self: center;
-    }
-    
-    .postprocessing {
-        align-self: center;
-    }
-    
-    .curing {
-        align-self: center;
-    }
-    
-    .finished {
-        align-self: center;
-    }
-    
-    .shipping {
-        align-self: center;
     }
     
     .further-information {
@@ -323,38 +174,29 @@
     /* *** FOOTER *** */
     
     footer {
-        display: flex;
         flex-direction: row;
         justify-content: space-around;
         margin: 0 auto;
     }
     
     footer .contact {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: left;
-        margin: 10px 10px;
         font-size: 12px;
     }
     
     #portrait-footer {
         max-width: 100px;
-        border-radius: 80px 0;
+        border-radius: 50px 0;
         margin-right: 0px;
     }
     
     #logo-footer {
         max-width: 100px;
         border-radius: 10px;
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin: 25px 0;
     }
     
     .copyright {
-        margin: 10px 10px;
+        margin: 10px;
         font-size: 12px;
-    }
-    
-    }
+    }    
+}
