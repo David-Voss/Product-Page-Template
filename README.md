@@ -16,8 +16,9 @@ This is why the page is so long on one hand and why elements such as an image ga
 In addition, the form does not allow JavaScript, which is why everything had to be realised with HTML and CSS.
 <br>
 >>><b>Note:</b> If this page design is to be used for eBay listings, all images used must be loaded from a stable online storage, as it is not possible to set up an ‘Assets’ folder for eBay listings.
+<br>
 
-><b>Live Demo on GitHub Pages: </b><a href="https://david-voss.github.io/Product-Page-Template/" target="_blank" rel="noopener noreferrer" title="david-voss.github.io/Product-Page-Template/">Product Page Template School</a>
+><b>Live Demo on GitHub Pages: </b> <a href="https://david-voss.github.io/Product-Page-Template/" target="_blank" rel="noopener noreferrer" title="david-voss.github.io/Product-Page-Template/">Product Page Template School</a>
 
 ## Table of contents
 1. &#128450;&#65039; Prject Structure
