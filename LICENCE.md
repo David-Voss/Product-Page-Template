@@ -19,7 +19,7 @@ This attribution must include the author’s name and a reference to the origina
     <p>
         <small>
             <em>
-                Page design based on the <a href="https://github.com/David-Voss/Product-Page" title="github.com/David-Voss/Product-Page" target="_blank" rel="noopener noreferrer">original layout</a> by <a href="https://github.com/David-Voss" title="github.com/David-Voss" target="_blank" rel="noopener noreferrer">David Voß</a>.
+                Page design based on the <a href="https://github.com/David-Voss/Product-Page-Template" title="github.com/David-Voss/Product-Page" target="_blank" rel="noopener noreferrer">original layout</a> by <a href="https://github.com/David-Voss" title="github.com/David-Voss" target="_blank" rel="noopener noreferrer">David Voß</a>.
             </em>
         </small>
     </p>

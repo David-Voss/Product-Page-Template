@@ -88,7 +88,7 @@ Please include a visible reference to the original author – for example, in th
     <p>
         <small>
             <em>
-                Page design based on the <a href="https://github.com/David-Voss/Product-Page" title="github.com/David-Voss/Product-Page" target="_blank" rel="noopener noreferrer">original layout</a> by <a href="https://github.com/David-Voss" title="github.com/David-Voss" target="_blank" rel="noopener noreferrer">David Voß</a>.
+                Page design based on the <a href="https://github.com/David-Voss/Product-Page-Template" title="github.com/David-Voss/Product-Page" target="_blank" rel="noopener noreferrer">original layout</a> by <a href="https://github.com/David-Voss" title="github.com/David-Voss" target="_blank" rel="noopener noreferrer">David Voß</a>.
             </em>
         </small>
     </p>
