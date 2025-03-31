@@ -14,9 +14,8 @@
 <br><br>
 This is why the page is so long on one hand and why elements such as an image gallery, "Add to basket" button etc. are missing on the other hand.
 In addition, the form does not allow JavaScript, which is why everything had to be realised with HTML and CSS.
-<br>
+<br><br>
 >>><b>Note:</b> If this page design is to be used for eBay listings, all images used must be loaded from a stable online storage, as it is not possible to set up an ‘Assets’ folder for eBay listings.
-<br>
 
 ><b>Live Demo on GitHub Pages: </b> <a href="https://david-voss.github.io/Product-Page-Template/" target="_blank" rel="noopener noreferrer" title="david-voss.github.io/Product-Page-Template/">Product Page Template School</a>
 
