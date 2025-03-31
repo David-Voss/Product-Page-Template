@@ -14,6 +14,20 @@ a {
     color: #000;
 }
 
+body a:hover {
+    color: slategrey;
+}
+
+p,
+li {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+
+    /* border: 1px solid red; */
+}
+
 /* ##### GRID-CONTAINER ##### */
 
 .grid-container {
@@ -60,7 +74,7 @@ a {
 .cards-german {
     grid-area: german;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     margin: 0 30px;
 }
@@ -68,7 +82,7 @@ a {
 .cards-english {
     grid-area: english;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     margin: 0 30px;
 }
@@ -91,7 +105,7 @@ a {
 .cards2 {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 
     background-color: #FFFFFF;
     border-radius: 24px;
@@ -104,24 +118,18 @@ a {
     margin: 15px;
 }
 
-.german-cards2 {
-    max-width: 35%;
-    margin: 40px;
-    padding: 25px;
-}
-
-.german-cards2 h3 {
-    text-align: center;
-}
-
+.german-cards2,
 .english-cards2 {
-    max-width: 35%;
-    margin: 40px;
-    padding: 25px;
+    max-width: 45%;
+    margin: 10px;
+    padding: 35px;
 }
 
+.german-cards2 h3,
 .english-cards2 h3 {
-    text-align: center;
+    text-align: left;
+    position: relative;
+    left: 15px;
 }
 
 /* ##### GRID ITEMS ##### */
@@ -161,10 +169,6 @@ header #links {
     margin-bottom: 5px;
  }
 
- header #links a:hover {
-    color: slategray
- }
-
 header #logo {
     max-height: 96px;
 }
@@ -200,15 +204,15 @@ header #etsy {
     max-width: 225px;
 }
 
-#battlebrother {
+#left-image {
     border-radius: 150px 5px 10px 5px;
 }
 
-#boraka {
+#middle-image {
     border-radius: 5px 5px 10px 10px;
 }
 
-#jules {
+#right-image {
     border-radius: 5px 150px 5px 10px;
 }
 
@@ -234,36 +238,29 @@ section {
     margin: 50px 0;
  }
 
-.german-text {
-    flex-direction: column;
-    width: 33%;
-    padding: 0 20px 20px 20px;
-}
-
-.german-text h3 {
-    font-size: 40px;
-    position: relative;
-    right: 10px;
-    padding: 0;
-    text-align: center;
-}
-
-.description img {
-    max-height: 450px;
-}
-
+.german-text,
 .english-text {
     flex-direction: column;
     width: 33%;
-    padding: 0 20px 20px 40px;
+    padding: 0 0px 20px 0px;
 }
 
+.german-text h3,
 .english-text h3 {
     font-size: 40px;
     position: relative;
     right: 20px;
     padding: 0;
-    text-align: center;
+    text-align: left;
+}
+
+.description img {
+    align-self: center;
+    min-width: 375px;
+    min-height: 375px;
+    width: 34%;
+    height: 34%;
+    margin: 0 45px 0 40px;
 }
 
 /* * GENERAL INFORMATION* */
@@ -312,6 +309,7 @@ section {
 
 footer {
     display: flex;
+    flex-direction: column;
     grid-area: footer;
     background-color: #e99e48;
     text-align: center;
@@ -321,12 +319,22 @@ footer {
     margin: auto;
 }
 
+.footer-information {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 footer .contact {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
-    margin: 20px 20px 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 #portrait-footer {
@@ -341,5 +349,17 @@ footer .contact {
 }
 
 .copyright {
-    margin: 20px 20px 20px 0;
+    margin: 20px 20px 0px 0px;
+}
+
+.credit {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #F5F3EF;
+}
+
+.credit a {
+    color: inherit;
 }

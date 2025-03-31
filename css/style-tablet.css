@@ -28,10 +28,16 @@
     .cards-picture img {
         max-height: 200px;
     }
+
+    .cards-german,
+    .cards-english {
+        justify-content: center;
+        align-items: flex-start;
+    }
     
     .german-cards2,
     .english-cards2 {
-        max-width: 100%;
+        max-width: 40%;
         margin: 15px 0;
         padding: 15px 0;
     }
@@ -73,11 +79,11 @@
         max-width: 160px;
     }
     
-    #battlebrother {
+    #left-image {
         border-radius: 120px 5px 10px 5px;
     }
     
-    #jules {
+    #right-image {
         border-radius: 5px 120px 5px 10px;
     }
     
@@ -106,10 +112,14 @@
      }
 
     .description img {
+        min-width: 300px;
+        min-height: 300px;
+        max-width: 350px;
         max-height: 350px;
     } 
     
      .description h3 {
+        right: 10px;
         font-size: 30px;
         text-align: center;
      }
@@ -117,7 +127,19 @@
     .german-text,
     .english-text {
         width: 80%;
+        text-align: center;
     }
+
+    .description ul {
+        display: inline-block;
+        text-align: left;
+        margin: 0 auto;
+        padding-left: 1.2em; /* optional, für Bullet-Einrückung */
+      }
+
+    .description li {
+        text-align: left;
+      }
     
     /* * GENERAL INFORMATION* */
     

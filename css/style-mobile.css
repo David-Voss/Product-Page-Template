@@ -1,6 +1,6 @@
 /* ############# Smartphone Optimization ########### */
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
 
     header,
     section,
@@ -25,6 +25,10 @@
     .cards {
         font-size: 12px;
     }   
+
+    .cards p {
+        width: 100%;
+    }
     
     .cards-german,
     .cards-english {
@@ -51,7 +55,7 @@
 
     .german-cards2,
     .english-cards2 {
-        max-width: 100%;
+        max-width: 95%;
         margin: 5px 0;
         padding: 5px 0;
     }
@@ -92,11 +96,11 @@
     
     /* *** SUBHEADER SECTION *** */
     
-    .mmm h3 {
+    .subheader-title h3 {
         font-size: 16px;
     }
     
-    .mmm h4 {
+    .subheader-title h4 {
         font-size: 14px;
     }
     
@@ -104,15 +108,15 @@
         max-width: 85px;
     }
     
-    #battlebrother {
+    #left-image {
         border-radius: 65px 5px 10px 5px;
     }
     
-    #boraka {
+    #middle-image {
         border-radius: 5px 5px 10px 10px;
     }
     
-    #jules {
+    #right-image {
         border-radius: 5px 65px 5px 10px;
     }
     
@@ -141,7 +145,11 @@
      }
 
     .description img {
-        max-width: 250px;
+        min-width: 200px;
+        min-height: 200px;
+        max-width: 300px;
+        max-height: 300px;
+        margin: 20px 0 10px 0;
     }
     
     .german-text,
@@ -172,10 +180,8 @@
     }
     
     /* *** FOOTER *** */
-    
+
     footer {
-        flex-direction: row;
-        justify-content: space-around;
         margin: 0 auto;
     }
     
